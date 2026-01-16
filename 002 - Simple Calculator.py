@@ -1,0 +1,16 @@
+
+#  100 PYTHON PROJECTS — FROM BEGINNER TO ADVANCE WITH MySirGideon
+# PROJECT 2: Simple Calculator (Two Numbers)
+
+firstNumber = int(input("Enter First number: "));
+secondNumber = int(input("Enter Second number: "));
+
+sumOfNums = firstNumber + secondNumber;
+diffOfNums = firstNumber - secondNumber;
+prodOfNums = firstNumber * secondNumber;
+divOfNums = firstNumber / secondNumber;
+
+print("Sum of Numbers is ", sumOfNums)
+print("Difference of numbers is", diffOfNums)
+print("Product of numbers is", prodOfNums)
+print("Division of numbers is", divOfNums)
