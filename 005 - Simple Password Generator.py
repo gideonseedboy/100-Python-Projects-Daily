@@ -3,6 +3,12 @@
 # PROJECT 5 — SIMPLE PASSWORD GENERATOR
 
 import random
-pword_length = input("How many characters should password have 12 - 24: ")
+import string
+pword_length = int(input("How many characters should you password have (12 - 24)?: "))
+generate_string = string.ascii_letters + string.digits
+pw_characters = ""
 
-random_pword = random.rand
+while len(pw_characters)< pword_length:
+    pw_characters += random.choice(generate_string)
+
+print("Generated password: ", pw_characters)
